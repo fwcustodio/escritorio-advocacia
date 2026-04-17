@@ -1,0 +1,29 @@
+# Casos reais nunca vao para o git
+casos/reais/
+casos/reais/**
+
+# Artefatos temporarios e caches
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*~
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (caso alguma skill futura precise)
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Saidas binarias/privadas do cliente
+*.pdf
+!casos/_TEMPLATE/**/*.pdf
+!casos/exemplos/**/*.pdf
+*.docx
+!casos/_TEMPLATE/**/*.docx
+!casos/exemplos/**/*.docx
